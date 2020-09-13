@@ -1,0 +1,217 @@
+*{
+	padding: 0px;
+	margin: 0px;
+}
+/* Header section */
+.header-section{
+	width: 100%;
+	padding: 20px 0px;
+	background-color:#f6f9f9;
+}
+.header-section .header-inner{
+	width: 100%;
+	float: left;
+}
+/* banner css */
+.banner-section{
+	/* width: 100%; */
+	background-image: url("../images/Image.png");
+	background-repeat: no-repeat;
+	background-position: center top;
+	background-size: cover;
+}
+.banner-section .banner-inner{
+	text-align: center;
+	padding-top: 215px;
+}
+.banner-section .banner-inner h1 {
+	font-size: 85px;
+	/* font-weight: 700; */
+	color: #ffffff;
+}
+.banner-section .banner-inner .line{
+	height: 2px;
+	background-color: #15a4fa;
+	margin:30px 295px 0px;
+}
+.banner-section .banner-inner p{
+	margin-top: 30px;
+	color: white;
+}
+.banner-section .banner-inner .btn{
+    color: #fff;
+	background: transparent;
+	border: 2px solid #15a4fa;
+    margin: 65px 0px 178px;
+    padding: 12px 20px;
+    border-radius: 6px;
+	font-size: 20px;
+	transition: 1s;
+}
+.banner-section .banner-inner .btn:hover{
+	background-color: #15a4fa;
+}
+.banner-section .banner-inner .arro{
+    padding-bottom: 92px;
+}
+/* section 2 */
+/***************section2 start **************************/
+.second-section{
+	width: 100%;
+    background-color: #f6f9f9;
+    text-align: center;
+}
+.second-section .inner h2{
+	margin: 68px 0px 30px;
+}
+.second-section .inner p{
+	margin-bottom: 90px;
+	color: #999999;
+}
+/*************** feature section **************************/
+.feature-section{
+	width: 100%;
+	margin: 60px 0px;
+	text-align: center;
+}
+.feature-section h4{
+	padding: 15px 0px;
+}
+.feature-section p{
+	padding-bottom: 15px;
+	color: #a0a0a0;
+}
+/****************** section4 start **********************/
+.section4{
+	width: 100%;
+	background-color: #f6f9f9;
+	padding: 80px 0px;
+}
+.section4 .row h2{
+	font-size: 32px;
+	color: #2d3950;
+	padding: 10px 0px 10px;
+	text-align: center;
+}
+.section4 .row p{
+	margin-bottom: 50px;
+	color: #909090;
+	font-size: 15px;
+	text-align: center;
+}
+.section4 .image{
+	float: left;
+	position: relative;
+	margin: 15px 0px;
+}
+.section4 .image .picture{
+	width: 100%;
+}
+.section4 .image .icon{
+	width: 100%;
+	height: 100%;
+	/* float: left; */
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	/* background-color: #007bb7cc; */
+}
+.section4 .image .icon-inner {
+    margin: 0px auto;
+    top: 50%;
+    position: absolute;
+    top: 44%;
+    left: 33%;
+}
+.section4 .image .icon:hover{
+	background-color: #007bb7cc;
+}
+/********************** section5 start *********************/
+.section5{
+	width: 100%;
+	background-image: url("../images/BG.png");
+	background-repeat: no-repeat;
+	padding-bottom: 26px;
+	background-size: cover;
+}
+.section5 .section5-inner-div1{
+	text-align: center;
+}
+.section5 .section5-inner-div1 h2{
+	padding: 76px 0px 25px;
+	color: white;
+}
+.section5 .section5-inner-div1 p{
+	padding-bottom: 50px;
+	color: #929294;
+}
+.section5 .section5-form{
+	width: 55%;
+	text-align: center;
+	margin: 0px auto;
+}
+.section5 .section5-form .form-control {
+	background: transparent;
+	border: 2px solid #999999;
+	padding: 24px;
+}
+.section5 .form-check {
+    position: relative;
+    display: block;
+    padding-left: 1.25rem;
+    color: white;
+    margin: 0px auto;
+    width: 60%;
+    padding-left: 30%;
+}
+.section5 .section5-btn{
+    margin: 0px auto;
+	width: 37%;
+	color: white;
+}
+.section5 button{
+    width: 120px;
+    height: 48px;
+	background: transparent;
+	border: 2px solid #15a4fa;
+	transition: 1s;
+	color: white;
+	border-radius: 6px;
+}
+.section5 button:hover{
+	background-color: #15a4fa; 
+}
+/* footer */
+.footer{
+	width: 100%;
+	background-color: #f6f9f9;
+}
+.footer .footer-text{
+	float: left;
+	margin: 24px 0px 0px;
+	color: #999999;
+}
+.footer .footer-icon{
+    margin: 10px 0px 0px;
+    float: right;
+    padding-right: 24px;
+}
+.footer .footer-icon ul li{
+	list-style-type: none;
+	display: inline-block;	
+}
+.footer .footer-icon ul li a {
+	color: #45b4f6; 
+}
+.footer .footer-icon ul li a .fa-facebook-square:hover{
+	color: #0e84ef; 
+}
+.footer .footer-icon ul li a .fa-twitter-square:hover{
+	color: #2aa6e2;
+}
+.footer .footer-icon ul li a .fa-google-plus-square:hover{
+	color: #4285f4;
+}
+.footer .footer-icon ul li a .fa-linkedin:hover{
+	color: #007bb7;
+}
